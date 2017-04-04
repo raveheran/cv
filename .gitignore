@@ -1,0 +1,9 @@
+# LaTeX
+resume.*
+
+# backups etc.
+*.sav
+*.bak
+
+# OSX
+.DS_Store
