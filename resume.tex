@@ -29,6 +29,10 @@ pdfusetitle
 
 \usepackage[left=0.75in,top=0.2in,right=0.75in,bottom=0.6in]{geometry}
 
+% citations
+\usepackage[natbib, citestyle=numeric, bibstyle=ieee, maxbibnames=999, maxcitenames=2, mincitenames=1]{biblatex}
+\addbibresource{mybib.bib}
+
 % ADD PICTURE
 
 \name{Eran Raveh}
@@ -167,9 +171,12 @@ pdfusetitle
 	\nocite{Raveh2017ESSV}
 	\nocite{Gessinger2016PundP}
 	
-	\renewcommand{\section}[2]{}%	
-	\bibliographystyle{IEEEtran}
-	\bibliography{mybib}
+	\section*{} % only ncessary to make bib numbers show
+	\printbibliography[heading=none]
+	
+%	\renewcommand{\section}[2]{}%	
+%	\bibliographystyle{IEEEtran}
+%	\bibliography{mybib}
 \end{rSection}
 
 \end{document}
