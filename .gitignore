@@ -7,3 +7,6 @@ resume.*
 
 # OSX
 .DS_Store
+
+# Ignore PDFs (stored CV versions)
+*.pdf
