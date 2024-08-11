@@ -27,6 +27,7 @@ urlcolor=blue,
 pdfusetitle
 ]{hyperref}
 
+\usepackage{multicol}
 \usepackage[left=0.75in,top=0.2in,right=0.75in,bottom=0.6in]{geometry}
 
 % citations
@@ -229,27 +230,25 @@ pdfusetitle
 	
 \end{rSection}
 
-% \pagebreak
-
+\vspace{-0.2cm}
 \begin{rSection}{Skills}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
-	Programming Languages 	& \underline{Experienced in}: Python, Java, R\\
-						  	& \underline{Familiar with}: JavaScript, SQL, VB, Groovy, DOS-batch\\[0.2cm]
-	Tools \& Frameworks   	& Jira, Figma, Git, Looker, Praat, VoiceFlow, DialogFlow, spaCy, Gradle, \LaTeX\\
-\end{tabular}
-
-% \textbf{ISTQB Software Testing Certification} from ITCB Foundation
-
-\end{rSection}
-
-\begin{rSection}{Languages}
+\vspace{-0.2cm}
+\small
+\begin{multicols}{2}
+	\textbf{Programming Languages}\\
+	Experienced in: Python, Java, R\\
+	Familiar with:\hspace{0.36cm}JavaScript, SQL, VB, Groovy, DOS-batch\\[0.2cm]
+	\textbf{Tools \& Frameworks}\\
+	Jira, Figma, Git, Looker, Praat, VoiceFlow, DialogFlow, spaCy, Gradle, \LaTeX\\
 	
-	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l @{\hspace{6ex}} @{} >{\bfseries}l @{\hspace{2ex}} l @{\hspace{6ex}}  @{} >{\bfseries}l @{\hspace{2ex}} l}
-		Hebrew	& 	Native 		        &   English		& Fluent		&	German	& Advanced (C1) \\
-		Arabic	&	Beginner			&	Japanese	& Beginner
-	\end{tabular}
+	\vfill\null\columnbreak	
 	
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l @{\hspace{5ex}} @{} >{\bfseries}l @{\hspace{2ex}} l }
+		Hebrew		& Native 		        &   English	&	Fluent\\[0.1cm]
+		German		& Advanced (C1)			&	Arabic	&	Beginner\\[0.1cm]
+		Japanese	& Beginner				&	{}		& 	{}\\[0.1cm]
+	\end{tabular}\\[0.4cm]
+\end{multicols}
 \end{rSection}
 
 %\begin{rSection}{Community}
